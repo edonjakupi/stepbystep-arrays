@@ -47,6 +47,7 @@ or a ternary at some point...
 */
 
 function reversed(list) {
+    debugger;
     var result = '';
     for (var i = list.length - 1; i >= 0; i--) {
         result = result + list[i];
